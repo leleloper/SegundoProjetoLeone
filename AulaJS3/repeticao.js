@@ -128,6 +128,7 @@ while(num <5)
 //ADIVINHE O NUMERO
 
 //1 A 10
+/*
 const numeroSecreto = Math.floor(Math.random()*10) +1;
 
 let palpite;
@@ -164,3 +165,125 @@ do
     }
 }
 while(palpite != numeroSecreto)
+*/
+
+//--------------------------------//---------------------------//
+
+//FOR -> LOOP
+
+//let conta = 0; Variavel de controle
+//conta < 10; Analise de condicao
+//conta++ Oq acontece com a variavel de controle
+
+/*
+for(let conta = 0; conta < 10; conta++) 
+{
+    console.log(conta)
+}
+console.log("O loop terminou.")
+*/
+
+//--------------------------------//---------------------------//
+
+//TABUADA
+
+/*
+const numero = Number(prompt("Tabuada de qual número?"))
+
+if(Number.isNaN(numero))
+{   
+    console.log("❌ número inválido")
+}
+else
+{
+    //console.log("TABUADA DO " + numero)
+    console.log(`\n TABUADA DO ${numero} \n`)
+
+    for(let i = 1; i<=10; i++)
+    {
+        const resultado = numero * i
+
+        //console.log(numero + "x " + i + " = " + resultado)
+
+        console.log(`${numero} x ${i} = ${resultado}`)
+    }
+}
+*/
+
+//--------------------------------//---------------------------//
+
+//EXIBA NUMEROS PARES DE 0 A 20
+
+/*
+console.log("Numeros pares de 0 a 20: \n")
+
+for(let pares = 0; pares <=20; pares +=2)
+{
+    console.log(pares)
+}
+*/
+
+//--------------------------------//---------------------------//
+
+//CONTAGEM REGRESSIVA COM FOR
+
+/*
+console.log("Lançamento em: \n")
+
+for(let conta = 10; conta >= 1; conta--)
+{
+    console.log(conta + "...")
+}
+
+console.log("Decolar!")
+*/
+
+//--------------------------------//---------------------------//
+
+//DESAFIO
+
+/* Minha verção:
+for(let i = 1; i<=1; i++)
+{
+    for(let o = 2; o<=2; o++)
+    {
+        for(let p = 3; p<=3; p++)
+        {
+console.log(`${i} ${i} ${i} 
+${o} ${o} ${o} 
+${p} ${p} ${p}`)
+        }
+    }
+    
+}
+*/
+
+/*Versão do prof
+for(let numero = 1; numero <=3; numero++ )
+{
+    let resultado = " ";
+    for(let vezes = 1; vezes <=3; vezes++)
+    {
+        resultado += numero + " "
+    }
+    console.log(resultado)
+}
+*/
+
+//--------------------------------//---------------------------//
+
+/*
+        //1 passo⬇️ //3passo⬇️ //2 passo⬇️
+for(let numero = 1; numero <=10; numero++ )
+{
+    let resultado = "";
+    for(let vezes = 1; vezes <= numero; vezes++)
+    {
+        resultado += "*"
+    }
+    console.log(resultado)
+}
+*/
+
+//--------------------------------//---------------------------//
+
