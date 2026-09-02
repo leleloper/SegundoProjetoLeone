@@ -1,4 +1,4 @@
-//array
+//Array
 //um array é um tipo de dados que serve para armazenar valor
 //seqeuncialmente em forma de lista
 
@@ -69,3 +69,79 @@ for(const nota of ListaNota)
     maiorNota = nota
 }
 console.log("Maior nota: " + maiorNota)
+
+//--------------------------------------------//-------------------------------------------//
+
+//Vetor - guarda valores
+//posições (indice) -> 0
+//for of -> percorrer toda a lista.
+
+//Objeto - São como "fichas" com informações
+// - Cada informação  tem um nome (CHAVE) e um VALOR.
+
+//PESSOA - ( Nome, Idade, Email, Genero, CPF)
+
+const pessoa = {
+    nome: "Eric",
+    idade: 33,
+    email: "email@teste.com",
+    genero: "M",
+    CPF: "739.686.460-70"
+}
+
+console.log(pessoa) //acessar todo o objeto
+console.log(pessoa.nome) //Eric
+console.log(pessoa["idade"]) //33
+
+//FOR IN
+
+for(const chave in pessoa)
+{
+     //chave é o NOME da prioridade
+     //objeto[chave] é o valor
+
+     console.log(pessoa[chave]) 
+     /*para cada vez que o for percorrer, ele vai pegar a 
+       Chave atual e retornar o VALOR que a chave representa */
+}
+
+//--------------------------------------------//-------------------------------------------//
+
+//Objeto [Aluno] que guarde os dados de nome, matricula, curso e nota
+const aluno = {
+    //sempre chave e valor
+    nome: "Ana",
+    matricula: "202609021",
+    curso: "JavaScript",
+    nota: 9.5
+}
+console.log("Dados do Aluno\n")
+
+for(const chave in aluno)
+{
+    const valor = aluno[chave]
+    console.log("chave: " + chave + " valor: " + valor)
+}
+
+//--------------------------------------------//-------------------------------------------//
+
+//LISTA DE PRODUTOS
+
+//informação de produto, preço, quantidade.
+
+const carrinho = [
+    //objeto
+    {produto: "Camiseta", preco: 49.90, quantdade: 2 },
+    {produto: "Calça Jeans", preco: 150.90, quantdade: 1 },
+    {produto: "Tenis", preco: 925.00, quantdade: 1 }
+]
+
+for (const itemDoMercado of carrinho)
+{
+    //retornar apeans o nome do produto e preço
+    console.log(itemDoMercado.produto)
+    console.log(itemDoMercado.preco)
+}
+
+// FOR IN -> Objetos | Retorna chaves / indice
+// FOR OF -> Arrays, String | Retorna valores
