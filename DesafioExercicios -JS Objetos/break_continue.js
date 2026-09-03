@@ -38,4 +38,3 @@ const nomes = ["Eric","Lailton","Rita","Miguel","Guilherme","Michael Jackson"]
 nomes.reverse()
 console.log(nomes)
 
-//-------------------------------------------//------------------------------------------//

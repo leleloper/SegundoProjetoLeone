@@ -28,5 +28,5 @@ for(const pedido of produtos)
    }
 }
 console.log("Total do pedido: " + total)
-console.log("Maior valor total por item:  " + MaiorValo )
-console.log("Item mais carO: " + nomeitem)
+console.log("Maior valor total por item:  " + MaiorValor )
+console.log("Item mais caro: " + nomeitem)
