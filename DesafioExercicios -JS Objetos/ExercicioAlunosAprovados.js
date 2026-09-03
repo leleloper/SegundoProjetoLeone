@@ -1,5 +1,5 @@
 const alunos = [
-    {nome: "Eric", nota: 0 },
+    {nome: "Eric", nota: 10 },
     {nome: "Davi 1", nota: 7 },
     {nome: "Davi 2", nota: 1.92 },
     {nome: "Luiz", nota: 1 },
@@ -8,12 +8,13 @@ const alunos = [
 for(const no of alunos)
 {
     alunos[no]
-    if(nota<7)
+    if(no.nota<7)
     {
         continue;
     }
-    else
+    else (no.nota>=7)
     {
-        console.log(no)
+        console.log(no.nome)
+        console.log(no.nota)
     }
 }
