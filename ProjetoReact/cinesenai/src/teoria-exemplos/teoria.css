@@ -1,0 +1,62 @@
+body {
+  margin: 0;
+  font-family: system-ui, -apple-system, sans-serif;
+  background: #0f172a;
+  color: #e2e8f0;
+}
+
+/* Centraliza o conteúdo e limita a largura,
+   como uma coluna de leitura. */
+.teoria-container {
+  max-width: 720px;
+  margin: 0 auto;
+  padding: 2rem 1.5rem 4rem;
+}
+
+.teoria-container h1 {
+  font-size: 1.6rem;
+}
+
+/* Aviso no topo da página avisando que é só demonstração */
+.aviso {
+  background: #1e293b;
+  border-left: 4px solid #e50914; /* vermelho de destaque do tema */
+  padding: 0.75rem 1rem;
+  border-radius: 4px;
+  font-size: 0.9rem;
+  color: #cbd5e1;
+}
+
+/* Cada bloco "5.1", "5.2" etc. */
+.secao-teoria {
+  margin-top: 2.5rem;
+}
+
+.secao-teoria h2 {
+  border-bottom: 1px solid #334155;
+  padding-bottom: 0.4rem;
+}
+
+/* Caixa cinza em volta de cada exemplo rodando,
+   pra separar visualmente do resto da página. */
+.demo-box {
+  background: #1e293b;
+  border: 1px solid #334155;
+  border-radius: 8px;
+  padding: 1rem 1.25rem;
+  margin-top: 0.75rem;
+}
+
+.demo-box button {
+  cursor: pointer;
+  background: #e50914;
+  color: white;
+  border: none;
+  padding: 0.4rem 0.9rem;
+  border-radius: 4px;
+  font-size: 0.9rem;
+}
+
+.demo-box a {
+  color: #38bdf8;
+}
